@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- <link rel = "stylesheet" href = "‪style.css"> -->
+        <link rel = "stylesheet" href = "‪style.css">
         <title>My Webpage...!!!</title>
         <style>
             #initjourney {
@@ -17,22 +17,21 @@
                 padding: 30px;
                 text-align: center;
             }
-            #aboutme {
-                height: 100vh;
+            #aboutme, #intake {
+                height: 40vh;
                 width: 20vw;
                 border: 10px;
                 background-color: rgb(14, 99, 78);
-                margin : 20px;
+                margin : 20px auto;
                 color :antiquewhite;
                 text-align: center;
                 font-size: medium;
+                align-self: center;
             }
-            p {
-                text-align: justify;
-                font-size: medium;
-                color: bisque;
-                padding : 10px;
-            }
+            #formd {
+                margin : 20px auto;
+            } 
+           
         </style>
         
     </head>
@@ -43,12 +42,31 @@
         <div id = "aboutme">
             About me
             <br/>
-            <br/>
             <img src = "MyPhoto.jpeg" style = "height:100px; width: 100px ; align-content:center; rotate: left;">
             <p>
                 I am Venu Gopal Jilla. I was really excited to join MSIT in my under-graduation. MSIT really helped me a lot in 
                 developing self-learning capability in me.
             </p>
         </div>
+        <div id = "intake">
+            <h3>Intake</h3>
+            <br>
+            <table>
+                <tr>
+                    <th>Sl.No</th>
+                    <th>Intake</th>
+                    <th>Specializations</hd>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>120</td>
+                    <td>8</td>
+                </tr>
+            </table>
+        </div>
+        <form style="align-self: auto;">
+            <input type = "text" placeholder="Full name" name = "name"><br>
+            <button>Sign Up</button>
+        </form>
     </body>
 </html>
