@@ -1,0 +1,16 @@
+div {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-style: oblique;
+    font-weight: bold;
+    background-color: darkslateblue;
+    color: antiquewhite;
+    height: 200px;
+    width: 200px;
+    border: 10px;
+}
+#aboutme {
+    height: 200px;
+    width: 200px;
+    border: 5px;
+}
